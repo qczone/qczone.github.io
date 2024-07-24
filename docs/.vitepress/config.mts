@@ -1,9 +1,9 @@
-import { defineConfig } from "vitepress";
+import {defineConfig} from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
-  description: "A VitePress Site",
+  title: "博客",
+  description: "记录点滴，分享知识",
   lang: "zh-CN",
   lastUpdated: true,
   themeConfig: {
@@ -20,8 +20,7 @@ export default defineConfig({
     lastUpdated: {
       text: "最后更新于",
       formatOptions: {
-        dateStyle: "short",
-        timeStyle: "medium",
+        dateStyle: "short"
       },
     },
     langMenuLabel: "多语言",
@@ -31,17 +30,29 @@ export default defineConfig({
     lightModeSwitchTitle: "切换到浅色模式",
     darkModeSwitchTitle: "切换到深色模式",
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
-    ],
+    nav: [{text: "列表", link: "/overview/overview"}],
 
     sidebar: [
       {
-        text: "Examples",
+        text: "概览",
+        link: "/overview/overview",
+      },
+      {
+        text: "Mac",
         items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
+          {
+            text: "Mac 自定义 Edge 在菜单栏中的名称",
+            link: "/mac/mac-customizing-edge-name-in-the-menu-bar",
+          },
+        ],
+      },
+      {
+        text: "问题排查",
+        items: [
+          {
+            text: "一次解决 JVM 线程数量过高问题的经历",
+            link: "/problem-screening/an-experience-of-solving-the-problem-of-high-number-of-jvm-threads",
+          },
         ],
       },
     ],
