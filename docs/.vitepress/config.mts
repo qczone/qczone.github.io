@@ -6,6 +6,20 @@ export default defineConfig({
   description: "记录点滴，分享知识",
   lang: "zh-CN",
   lastUpdated: true,
+  head: [
+    [
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-LN1CDPD1N4' }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-LN1CDPD1N4');`
+    ]
+  ],
   themeConfig: {
     search: {
       provider: "local",
