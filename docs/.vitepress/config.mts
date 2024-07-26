@@ -58,6 +58,11 @@ export default defineConfig({
             text: "Mac 自定义 Edge 在菜单栏中的名称",
             link: "/mac/mac-customizing-edge-name-in-the-menu-bar",
           },
+          {
+            text: "Mac 应用推荐",
+            link: "/mac/mac-good-app",
+
+          },
         ],
       },
       {

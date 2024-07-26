@@ -3,6 +3,7 @@
 ## Mac
 
 - [Mac 自定义 Edge 在菜单栏中的名称](../mac/mac-customizing-edge-name-in-the-menu-bar.md)
+- [Mac 应用推荐](../mac/mac-good-app.md)
 
 ## 问题排查
 
