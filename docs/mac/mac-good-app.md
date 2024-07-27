@@ -52,5 +52,17 @@ QuickRecorder 作者的另外一个有趣的软件，可以把左上角的苹果
 
 ![image-20240726182806225](./assets/image-20240726182806225.png)
 
+## Mos
+
+> [Caldis/Mos: 一个用于在 macOS 上平滑你的鼠标滚动效果或单独设置滚动方向的小工具, 让你的滚轮爽如触控板 | A lightweight tool used to smooth scrolling and set scroll direction independently for your mouse on macOS (github.com)](https://github.com/Caldis/Mos)
+
+Mac 上鼠标滚轮的逻辑和触控板一样，触控板往上滑，网页往下走，很正常，但是鼠标的滚轮往上滑，网页也是往下走，就很反人类，Mos 解决了这个问题，虽然作者两年没更新了，但是我用了一年下来没什么问题。
+
+## OrbStack
+
+> [OrbStack · Fast, light, simple Docker & Linux on macOS](https://orbstack.dev/)
+
+Docker Desktop 的高替，性能更好，还支持 Linux 虚拟机。
+
 ## 未完待续
 
