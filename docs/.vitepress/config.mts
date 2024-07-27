@@ -7,6 +7,7 @@ export default defineConfig({
   lang: "zh-CN",
   lastUpdated: true,
   head: [
+    ['link', { rel: 'icon', href: 'https://github.githubassets.com/favicons/favicon.svg' }],
     [
       'script',
       { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-LN1CDPD1N4' }
