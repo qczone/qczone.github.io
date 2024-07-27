@@ -2,8 +2,8 @@ import {defineConfig} from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "博客",
-  description: "记录点滴，分享知识",
+  title: "qczone",
+  description: "qczone's blog",
   lang: "zh-CN",
   lastUpdated: true,
   head: [
