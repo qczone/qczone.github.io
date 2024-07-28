@@ -62,7 +62,6 @@ export default defineConfig({
           {
             text: "Mac 应用推荐",
             link: "/mac/mac-good-app",
-
           },
         ],
       },
@@ -72,6 +71,15 @@ export default defineConfig({
           {
             text: "一次解决 JVM 线程数量过高问题的经历",
             link: "/problem-screening/an-experience-of-solving-the-problem-of-high-number-of-jvm-threads",
+          },
+        ],
+      },
+      {
+        text: "Java",
+        items: [
+          {
+            text: "Java 的 JSON 规范：JSON-P 和 JSON-B",
+            link: "/java/java-json-standard-json-p-and-json-b",
           },
         ],
       },
