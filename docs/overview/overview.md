@@ -11,3 +11,6 @@
 
 ## Java
 - [Java 的 JSON 规范：JSON-P 和 JSON-B](../java/java-json-standard-json-p-and-json-b.md)
+
+## Web
+- [Web 开发中的跨域问题详解](../web/cors.md)

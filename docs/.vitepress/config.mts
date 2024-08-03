@@ -84,6 +84,15 @@ export default defineConfig({
           },
         ],
       },
+      {
+        text: "Web",
+        items: [
+          {
+            text: "Web 开发中的跨域问题详解",
+            link: "/web/cors",
+          },
+        ],
+      },
     ],
 
     socialLinks: [
