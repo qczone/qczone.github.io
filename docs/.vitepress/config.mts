@@ -31,7 +31,7 @@ export default defineConfig({
     },
     outline: {
       label: "目录",
-      level: [2,3],
+      level: "deep",
     },
     lastUpdated: {
       text: "最后更新于",
