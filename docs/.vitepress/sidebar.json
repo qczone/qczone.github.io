@@ -1,0 +1,79 @@
+[
+    {
+        "text": "概览",
+        "link": "/overview/overview"
+    },
+    {
+        "text": "Web",
+        "items": [
+            {
+                "text": "Web 开发中的跨域问题详解",
+                "link": "web/cors.md"
+            },
+            {
+                "text": "使用 VitePress 搭建博客",
+                "link": "web/building-a-blog-with-vitepress.md"
+            },
+            {
+                "text": "使用 GitHub Pages 部署博客",
+                "link": "web/deploying-a-blog-using-github-pages.md"
+            },
+            {
+                "text": "使用自己的域名访问 GitHub Pages",
+                "link": "web/access-github-pages-with-your-own-domain.md"
+            }
+        ]
+    },
+    {
+        "text": "Java",
+        "items": [
+            {
+                "text": "Java 的 JSON 规范：JSON-P 和 JSON-B",
+                "link": "java/java-json-standard-json-p-and-json-b.md"
+            },
+            {
+                "text": "使用 MapStruct 简化 Java Bean 映射",
+                "link": "java/simplifying-java-bean-mapping-with-mapstruct.md"
+            }
+        ]
+    },
+    {
+        "text": "Mac",
+        "items": [
+            {
+                "text": "Mac 自定义 Edge 在菜单栏中的名称",
+                "link": "mac/mac-customizing-edge-name-in-the-menu-bar.md"
+            },
+            {
+                "text": "Mac 应用推荐",
+                "link": "mac/mac-good-app.md"
+            }
+        ]
+    },
+    {
+        "text": "问题排查",
+        "items": [
+            {
+                "text": "一次解决JVM线程数量过高问题的经历",
+                "link": "problem-screening/an-experience-of-solving-the-problem-of-high-number-of-jvm-threads.md"
+            }
+        ]
+    },
+    {
+        "text": "数据库",
+        "items": [
+            {
+                "text": "使用 Maxwell 实现 MySQL 数据变更捕获",
+                "link": "data-base/implementing-mysql-change-data-capture-with-maxwell.md"
+            },
+            {
+                "text": "使用 Debezium 实现 MySQL 数据变更捕获",
+                "link": "data-base/implementing-mysql-change-data-capture-with-debezium.md"
+            },
+            {
+                "text": "使用 Canal 实现 MySQL 数据变更捕获",
+                "link": "data-base/implementing-mysql-change-data-capture-with-canal.md"
+            }
+        ]
+    }
+]
