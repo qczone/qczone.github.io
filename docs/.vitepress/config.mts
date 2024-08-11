@@ -9,18 +9,6 @@ export default defineConfig({
   lastUpdated: true,
   head: [
     ['link', { rel: 'icon', href: 'https://github.githubassets.com/favicons/favicon.svg' }],
-    [
-      'script',
-      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-LN1CDPD1N4' }
-    ],
-    [
-      'script',
-      {},
-      `window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-LN1CDPD1N4');`
-    ]
   ],
   themeConfig: {
     search: {
